@@ -11,6 +11,9 @@ module.exports = {
       "namedComponents": "arrow-function",
       "unnamedComponents": "arrow-function",
     }],
+    'react/jsx-no-useless-fragment': [2, {
+      "allowExpressions": true,
+    }],
   },
 
   settings: {
