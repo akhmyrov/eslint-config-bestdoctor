@@ -7,7 +7,10 @@ module.exports = {
     'react/no-unused-prop-types': 'off',
     'react/require-default-props': 'off',
     'react/jsx-no-bind': ['off', { allowFunctions: true }],
-    'react/function-component-definition': [2, { "namedComponents": "arrow-function" }],
+    'react/function-component-definition': [2, {
+      "namedComponents": "arrow-function",
+      "unnamedComponents": "arrow-function",
+    }],
   },
 
   settings: {
